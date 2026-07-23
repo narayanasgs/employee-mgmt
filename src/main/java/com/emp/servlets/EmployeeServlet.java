@@ -18,10 +18,11 @@ public class EmployeeServlet extends HttpServlet {
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		PrintWriter out = response.getWriter();
 		out.println("<h1>Employee Management </h1>");
+		out.println("<h1>hello </h1>");
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println("Inside Post method");
 	}
-
+	
 }
